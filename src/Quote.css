@@ -1,6 +1,6 @@
 .main{
   width:800px;
-  height:250px;
+  height:300px;
   padding:10px;
   background-color:rgba(0,0,0,0.5);
   display: flex;
@@ -9,7 +9,7 @@
   color:white;
   flex-direction: column;
   border-radius: 20px;
-
+  backdrop-filter: blur(10px);
 }
 h2{
   width:90%;
@@ -42,7 +42,7 @@ button:hover{
   .main{
     width:95%;
     padding:2px;
-    height:250px;
+    height:350px;
     margin: auto;
     min-width: 95%;
     max-width: 95%;
@@ -52,7 +52,7 @@ button:hover{
   h2{
     font-size:25px;
     width:90%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin:auto;
   }
   .second{
